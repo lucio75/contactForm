@@ -1,0 +1,132 @@
+div.modulo-contatti{
+	border:1px solid #dadada;
+	background:#fafafa;
+	margin-top:40px;
+}
+p.contact-form-fields input[type="text"],p.contact-form-fields input[type="email"],p.contact-form-fields input[type="tel"]{
+    border: 1px solid #ddd !important;
+    height: 40px !important;
+    padding: 9px 10px !important;
+    line-height: 30px !important;
+    color: inherit !important;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+	width:100% !important;
+	margin:12px  !important;
+}
+
+p.contact-form-fields textarea {
+    border: 1px solid #ddd;
+    padding: 9px 10px;
+    line-height: 30px;
+    color: inherit;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+	margin:12px 0;
+	width:100%;
+}
+
+p.contact-form-fields input[type=text]:focus{
+	border:1px solid rgb(255, 182, 6) !important;
+}
+p.contact-form-fields input[type=tel]:focus{
+	border:1px solid rgb(255, 182, 6) !important;
+}
+/*placeholder style*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #999;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #999;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #999;
+}
+
+input:focus::-webkit-input-placeholder { /* WebKit browsers */
+    color:    transparent;
+}
+input:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    transparent;
+}
+input:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    transparent;
+}
+input:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:   transparent;
+}
+
+textarea:focus::-webkit-input-placeholder { /* WebKit browsers */
+    color:    transparent;
+}
+textarea:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    transparent;
+}
+textarea:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    transparent;
+}
+textarea:focus:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:   transparent;
+}
+p.contact-form-fields{
+	margin-bottom:20px;
+	text-align:left;
+}
+
+button[type="submit"] {
+	outline:0;
+    text-transform: uppercase;
+    font-size: 13px;
+    height: 50px;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #333333;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+
+}
+button[type="submit"] {
+	background: #ffb606;
+}
+
+button[type="submit"]:hover {
+	background: #e3a102;
+
+}
+
+button[type="submit"]:focus{border:0;}
+.load{
+	display:none;
+	color:#fff;
+	font-size:14px;
+}
+#responde p.success{
+	color:green !important;
+	text-align:center;
+}
+p.check{
+	font-size:12px;
+}
+
+p.check a{
+	color:#222;
+	font-weight:bold;
+}
+
+form input:focus,form textarea:focus{
+	border:1px solid rgb(255, 182, 6) !important;
+}

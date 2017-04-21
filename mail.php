@@ -10,8 +10,8 @@
 		$privacy="Ho letto ed accetto l'informativa sulla privacy";
 	}
 
-//Qui andr‡ inserito il tuo indirizzo e-mail
-$to = "info@freewebsolution.it";
+//Qui andr√† inserito il tuo indirizzo e-mail
+$to = "info@tuaemail.it";
 
 //Creazione del mesaggio da inviare
 $message = "Hai ricevuto una e-mail da:<br/><br/><b>Nome:</b> ".$name."<br/><br/><b>Email:</b> ".$mail." <br/><br/><b>Telefono:</b> ".$tel."<br/><br/><b>Privacy:</b> ".$privacy."
